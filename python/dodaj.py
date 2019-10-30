@@ -4,7 +4,9 @@
 
 
 def main(args):
-    print('Witaj Pyton')
+    a = input('podaj liczbę: ')
+    b = input('podaj liczbę: ')
+    print('Suma:', int(a) + int(b))
     return 0
 
 if __name__ == '__main__':
